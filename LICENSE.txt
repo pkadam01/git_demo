@@ -1,0 +1,4 @@
+Copyright (c) 2022, Lear Corporation
+
+This library is proprietary and confidential.
+Unauthorized copying of any portion, via any medium is strictly prohibited.

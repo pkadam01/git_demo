@@ -1,0 +1,6 @@
+__package__ = 'lattehhpel'
+__author__ = 'Pooja Kadam'
+__version__ = '100.0.0.dev3'
+__email__ = 'pkadam@lear.com'
+__description__ = 'Library to interact with H&H Programmable Electronic Load'
+__url__ = 'https://confluence.lear.com/display/LKCBBSW/LATTE'
