@@ -64,6 +64,7 @@ class HHPEL:
         # The number x in inspect.stack()[x] indicates the level of the caller:
         #  1 means that we access the first caller
         #  2 means that we access the second caller (the caller of the caller)
+        # Testing an git demo
         init_level = 2
         caller = inspect.stack()[init_level]
         while caller.filename.split('\\')[-1] == 'hhpel.py':
