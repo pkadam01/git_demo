@@ -60,11 +60,17 @@ class HHPEL:
     @staticmethod
     def _line():
 
+
+
         # Returns the line of the main script from where a function of this file was called
         # The number x in inspect.stack()[x] indicates the level of the caller:
         #  1 means that we access the first caller
         #  2 means that we access the second caller (the caller of the caller)
+<<<<<<< HEAD
         # Testing an git demo
+=======
+        # Testing branching of Gitstuff
+>>>>>>> 56aa8cd1f8cf916508ab595e306a8c95991fac3e
         init_level = 2
         caller = inspect.stack()[init_level]
         while caller.filename.split('\\')[-1] == 'hhpel.py':
